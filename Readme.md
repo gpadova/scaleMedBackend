@@ -44,6 +44,14 @@ The ScaleMed Backend provides the following API endpoints:
 
 - `DELETE /tasks/{id}`: Delete a specific task by ID.
 
+## Tests
+
+ScaleMedBackend has its owns tests. It's really simple to run. On the terminal:
+
+```.\mvnw verify```
+
+And see the testing flow happening.
+
 ## Configuration
 
 The configuration for the ScaleMed Backend is located in the `src/main/resources/application.properties` file. You can modify this file to adjust various settings, including the database connection, logging, and other application-specific configurations.
